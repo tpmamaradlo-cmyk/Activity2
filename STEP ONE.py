@@ -6,13 +6,13 @@ num2=int(input("Enter second number: "))
 
 #Get Sum
 def calculate_sum():
-    global sum,num1,num2
+    global sum
     sum=num1+num2
     print(f"Sum: {sum}")
 
 #Get Difference
 def calculate_difference():
-    global difference,num1,num2
+    global difference
     difference=num1-num2
     print(f"Difference: {difference}")
 
